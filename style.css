@@ -1,14 +1,20 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style:normal ;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 40px;
+img {
+    width: 100px;
+    height: 100px;
 }
 
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-size: 40px;
-    line-height: 48px;
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.work-pic {
+    width: 296px;
+    height: 382px;
+}
+
+.developer_image {
+    width: 200px;
+    height: 150px;
+    border-radius: 25px
 }
