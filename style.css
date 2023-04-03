@@ -192,12 +192,18 @@ p {
     animation: fadeIn ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    transition: 0.3s border;
+    border: 2px solid transparent;
+}
+
+.work-pic:hover {
+    border: 2px solid grey;
 }
 
 .bio {
     margin-top: 15px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 10px;
     padding-left: 15px;
     margin-right: 40px;
@@ -206,7 +212,7 @@ p {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 0.3s border;
-    border: 0px solid;
+    border: 2px solid transparent;
 }
 
 .bio:hover {
