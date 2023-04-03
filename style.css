@@ -3,7 +3,23 @@ img {
     height: 100px;
 }
 
+.Name {
+    position: absolute;
+    left: 120;
+    top: 30;
+}
+
 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h5 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
@@ -17,4 +33,20 @@ h1 {
     width: 200px;
     height: 150px;
     border-radius: 25px
+}
+
+.developer-detail {
+    position: absolute;
+    left:250px;
+    right: 50px;
+}
+
+.developer-experience {
+    position: absolute;
+    left: 50px
+}
+
+.tool-container {
+    position: absolute;
+    
 }
