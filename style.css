@@ -189,7 +189,7 @@ p {
     flex: 0 0 auto;
     max-width: 100%;
     margin-right: 10px;
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     transition: 0.3s border;
